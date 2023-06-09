@@ -31,19 +31,6 @@ def EsPrimo(valor):
 def ClaseAnimal(especie, color):
 
 
-
-    # class Animal:
-    #     def __init__(self, especie, color):
-    #         self.especie = especie
-    #         self.color = color
-    #         self.edad= 0
-
-    #     def cumplirAnios(self):
-    #         self.edad += 1
-    #         return self.edad
-    
-    # return Animal(especie,color)
-
     class Animal:
         def __init__(self, especie, color):
             self.edad = 0
